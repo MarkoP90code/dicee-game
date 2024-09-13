@@ -28,13 +28,12 @@ I u html sam ubacio type="module".
 */
 
 import * as images from 'url:./images/*.png';
-console.log(images);
 
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 var randomDice1 = "dice" + randomNumber1;
 var randomDice2 = "dice" + randomNumber2;
-console.log(randomDice1);
+
 document.querySelector(".img1").setAttribute("src", images[randomDice1]);   //Ovde mora bracket notation jer je randomDice1 promenljiva.
 document.querySelector(".img2").setAttribute("src", images[randomDice2]);
 
