@@ -22,6 +22,7 @@
 
 /*
 OVO JE VERZIJA ZA PARCEL - zato sto slike morem ovako ubaciti
+odradi sta treba npm init...sve do npm i pracel --save-dev i onda.
 ovo sam uradio prvo npm i parcel-plugin-static-files-copy
 pa napravio file .parcelrc i onda dodao ono sto sad ima u tom filu kad ga stisnem
 I u html sam ubacio type="module".
