@@ -30,6 +30,7 @@ I u html sam ubacio type="module".
 
 import * as images from 'url:./images/*.png';
 
+console.log("Play the game by refreshing your page.");
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 var randomDice1 = "dice" + randomNumber1;
